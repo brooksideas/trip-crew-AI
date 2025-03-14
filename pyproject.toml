@@ -1,0 +1,21 @@
+[project]
+name = "trip-crew-ai"
+version = "0.1.0"
+description = "A Trip advisor crew Agent the would act as a helper to the user to plan a trip."
+authors = [
+    {name = "Brook Tarekegn",email = "brooksideas@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "crewai (>=0.105.0,<0.106.0)",
+    "unstructured (>=0.17.0,<0.18.0)",
+    "pyowm (>=3.3.0,<4.0.0)",
+    "tools (>=0.1.9,<0.2.0)",
+    "python-dotenv (>=1.0.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

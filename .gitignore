@@ -3,5 +3,11 @@
 # environment variables
 .env
 
+# ignore my virtual environment setup 
+trip-env
+
+# ignore the poetry lock file as well
+poetry.lock
+
 #Cache folders
 __pycache__/
